@@ -33,3 +33,5 @@ Animal: {}
 Names:""".format(
         animal.capitalize()
     )
+
+app.run(host='0.0.0.0', port=8000)
